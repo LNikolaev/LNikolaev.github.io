@@ -1,0 +1,89 @@
+h1,h2,ul,li {
+font-family: "helvetica neue", "Arial", sans-serif;
+font:inherit;
+font-size:100%;
+margin:0;
+padding:0;
+}
+.cool-name {
+    color:blue;
+}
+.mainDetails {
+	padding: 35px 35px 0px 35px;
+	border-bottom: 3px solid #2a82e0;
+	background: #ededed;
+    margin: 0px -40px;
+}
+#avatar {
+	width: 12.5%;
+	float: left;
+	margin-right: 30px;
+}
+#avatar img {
+	width: 100%;
+	height: auto;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+#name h2 {
+	font-size: 4em;
+    font-weight:
+	margin-left: 2px;
+}
+#name-LucidaGrande {
+    font-family: "Lucida Grande";
+    font-style: normal;
+    font-variant: small-caps;
+}
+#name h2 {
+    font-size: 3.3em;
+    margin-top: 12px;
+    margin-left: -10px;
+}
+#name {
+	float: left;
+}
+#contactDetails {
+	float: right;
+    font-size: 18px;
+    margin-top: 8px;
+}
+#contactDetails ul {
+	list-style-type: none;
+	font-size: 0.9em;
+	margin-top: 7px;
+}
+#contactDetails ul li {
+	margin-bottom: 3px;
+	color: #444;
+}
+#contactDetails ul li a {
+	color: #444;
+	text-decoration: none;
+}
+#contact-image {
+    margin-bottom: -2px;
+}
+#header-container {
+	max-width: 800px;
+	margin: 30px auto;
+    padding: 0 40px;
+}
+#prefered-job {
+    padding-left: 37px;
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-size: 1.2em;
+	color: #7e72ab;
+}
+#prefered-job h3 {
+    font-weight: 500;
+}
+#job-positions {
+    display: inline;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+body {
+    background-color: rgba(0, 0, 0, 0.88);
+}

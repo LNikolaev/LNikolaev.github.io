@@ -1,0 +1,70 @@
+h1,h2,ul,li,span {
+font-family: "helvetica neue", "Arial", sans-serif;
+font:inherit;
+font-size:100%;
+margin:0;
+padding:0;
+}
+
+.footerDetails {
+	border-top: 3px solid #2a82e0;
+	background: #ededed;
+    margin: 0px -40px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+footer {
+    clear: both;
+    margin-top: 30px;
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+@keyframes spin-out {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+.social-footer {
+    float:left;
+    margin-left: 224px;
+    padding-left: 0px;
+    height: 100px;
+    width: 100px;
+}
+.animate {
+    display:block;
+    animation-name: spin-out;
+    animation-duration: 900ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+.animate:hover {
+    border-radius: 50px;
+    animation-name: spin;
+    animation-duration: 400ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+.center-linkedin {
+    padding-left: 18px;
+    padding-top: 17px;
+}
+.center-download {
+    padding-left: 19px;
+    padding-top: 17px;
+}
+.copyright {
+    color: white;
+    font-size: .9em;
+    text-align: center;
+    display: block;
+}
