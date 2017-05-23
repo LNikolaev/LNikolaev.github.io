@@ -1,5 +1,5 @@
 h1,h2,ul,li {
-font-family: "helvetica neue", "Arial", sans-serif;
+font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 font:inherit;
 font-size:100%;
 margin:0;
@@ -9,7 +9,7 @@ padding:0;
     color:blue;
 }
 .mainDetails {
-	padding: 35px 35px 0px 35px;
+	padding: 35px 35px 10px 35px;
 	border-bottom: 3px solid #2a82e0;
 	background: #ededed;
     margin: 0px -40px;

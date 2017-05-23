@@ -1,12 +1,14 @@
-h1,h2,p,ul,li,section,article {
-font-family: "helvetica neue", "Arial", sans-serif;
+h1,h2,h3,p,ul,li,section,article {
+font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 font:inherit;
 font-size:100%;
 margin:0;
-padding:0;
+padding:0;    
 }
 #main-container {
-    background: url("../images/noice.jpg");
+    background: url("../images/main-background.jpg");
+    background-size: cover;
+    background-position: 50% 50%;    
     padding: 0 40px;
     width: 90%;
     max-width: 800px;
@@ -20,7 +22,7 @@ p {
 }
 .clear {clear: both;}
 section {
-	border-top: 1px solid #dedede;
+	border-top: 1px solid white;
 	padding: 20px 30px;
 }
 #tipster-link {
@@ -43,46 +45,42 @@ section {
 	width: 72.5%;
 }
 .sectionTitle h1 {
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
-	font-style: italic;
 	font-size: 1.5em;
 	color: #7e72ab;
 }
 .sectionContent h2 {
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	font-size: 1.5em;
 	margin-bottom: -2px;
 }
 .subDetails {
-	font-size: 0.8em;
+	font-size: 0.9em;
 	font-style: italic;
 	margin-bottom: 3px;
 }
 #mother-language {
     margin-top: 119px;
-    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
-	font-style: italic;
 	font-size: 1.1em;
 	color: #7e72ab;
 }
 #other-language {
     margin-top: 28px;
-    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
-	font-style: italic;
 	font-size: 1.1em;
 	color: #7e72ab;
 }
-#comunication-skills {
-    margin-top: 100px;
-    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+#english {
+    margin-top: 28px;
 	font-style: italic;
+	font-size: 1.1em;
+	color: #7e72ab;
+    float: right;
+}
+#comunication-skills {
+    margin-top: 145px;
 	font-size: 1.1em;
 	color: #7e72ab;
 }
 #driving-license {
     margin-top: 60px;
-    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
-	font-style: italic;
 	font-size: 1.1em;
 	color: #7e72ab;
 }
@@ -103,7 +101,8 @@ section {
 }
 .tg  {
     border-collapse:collapse;
-    border-spacing:0;   
+    border-spacing:0; 
+    margin-top: 65px;
 }
 .tg td {
     font-family:Arial, sans-serif;
