@@ -2,7 +2,7 @@
 $(document).ready(function() {
 	setTimeout(function(){
 		$('body').addClass('loaded');
-	}, 0);
+	}, 2000);
     
     $(".footerDetails div").removeClass("animate");
     $(".download-text").hide();

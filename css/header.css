@@ -70,8 +70,9 @@ padding:0;
     padding: 0 40px;
 }
 #prefered-job {
+    margin-top: 10px;
     padding-left: 37px;
-	font-size: 1.2em;
+	font-size: 1.7em;
 	color: #7e72ab;
 }
 #prefered-job h3 {
@@ -81,6 +82,7 @@ padding:0;
     display: inline;
     font-size: 0.9em;
     font-weight: 500;
+    color: black;
 }
 body {
     background-color: rgba(0, 0, 0, 0.88);
